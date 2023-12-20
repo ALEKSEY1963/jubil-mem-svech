@@ -34,7 +34,7 @@ button {
   --color-main: #fff8f3;
   --color-btn-text: #272727;
   --color-btn: #ffbd59;
-  --color-about: #a5978e;
+  --color-brown: #a5978e;
   --color-about-text: #fafafa;
   --color-span: #7b6152;
   --color-course-img: #bea495;
@@ -145,7 +145,7 @@ button {
 }
 .top__content {
   width: 370px;
-  padding: 14% 0 24%;
+  padding: 8% 0 5%;
 }
 .top__title {
   font-family: var(--second-family);
@@ -167,14 +167,14 @@ button {
 .top__img {
   position: absolute;
   top: 0;
-  left: 340px;
+  left: 400px;
 }
 .top__img-l {
   width: 633px;
 }
 
 .about {
-  background-color: var(--color-about);
+  background-color: var(--color-brown);
   padding: 4% 0 4% 9%;
   margin-bottom: 150px;
   color: var(--color-about-text);
@@ -311,6 +311,36 @@ button {
   position: absolute;
   right: 1px;
   bottom: 2px;
+}
+.team {
+  padding: 80px 0 60px;
+  margin-bottom: 150px;
+  background-color: var(--color-brown);
+  color: #fff;
+}
+.team__content {
+  padding-bottom: 0;
+  gap: 60px;
+}
+.team__item {
+  position: relative;
+}
+.team__item-box {
+  background-color: var(--color-span);
+  text-align: center;
+  padding:  12px;
+  position: absolute;
+  width: 155px;
+  left: 155px;
+  bottom: 10px;
+  z-index: 3;
+}
+.team__item-name {
+  font-size: 12px;
+}
+.team__item-descr {
+  font-size: 10px;
+  font-family: var(--second-family);
 }
 
 .footer {
