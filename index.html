@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Сайт от0 до1</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="logo">
+          <img class="logo__img" src="img/logo.png" alt="" />
+        </a>
+        <nav class="menu header__menu">
+          <button class="menu__btn">
+            <span></span><span></span><span></span><span></span><span></span>
+          </button>
+          <ul class="menu__list header__menu-list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Про нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Каталог</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Команда</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Обзор</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Курсы</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="tel:+79180000000" class="phone">+7 999 000 00 00</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="top">
+        <div class="container top__container">
+          <div class="top__content">
+            <h3 class="top__title">Создайте атмосферу уюта и&nbsp;гармонии!</h3>
+            <p class="top__text">
+              Создайте особую атмосферу в&nbsp;своем доме с&nbsp;нашей
+              экологически чистой и&nbsp;качественной продукцией из&nbsp;100%
+              натурального соевого воска.
+            </p>
+            <button class="top__btn">Купить</button>
+          </div>
+          <picture class="top__img">
+            <source srcset="img/top-s.png" media="(max-width:361px)" />
+            <source srcset="img/top-m.png" media="(max-width:480px)" />
+
+            <img class="top__img-l" src="img/top-l.png" alt="" />
+          </picture>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__content">
+            <h2 class="about__title title">Про нас</h2>
+            <p class="about__text">
+              Богдан создатель бренда который всегда заинтересован
+              в&nbsp;изготовлении разнообразных вещей дома. Он&nbsp;регулярно
+              экспериментировал с&nbsp;различными материалами
+              и&nbsp;инструментами, пробуя свои силы во&nbsp;многих областях,
+              включая изготовление свечей.
+            </p>
+            <p class="about__text">
+              Соевый воск производится из&nbsp;соевых бобов, сращиваемых
+              в&nbsp;Дании, и&nbsp;этот вид воска является экологически чистым
+              и&nbsp;безопасным для здоровья.
+            </p>
+          </div>
+          <ul class="about__list section--decor">
+            <li class="about__item">
+              <img
+                src="img/about-1.jpg"
+                alt=""
+                class="about__item-img about__item-img--1"
+              />
+              <p class="about__item-text">Наслаждайтесь моментом</p>
+            </li>
+            <li class="about__item">
+              <img
+                src="img/about-2.jpg"
+                alt=""
+                class="about__item-img about__item-img--2"
+              />
+              <p class="about__item-text">Создайте любимую атмосферу</p>
+            </li>
+            <li class="about__item">
+              <img
+                src="img/about-3.jpg"
+                alt=""
+                class="about__item-img about__item-img--3"
+              />
+              <p class="about__item-text">Изготовлены с&nbsp;любовью</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="products section">
+        <div class="container section__inner">
+          <div class="products__descr section__descr">
+            <h2 class="product__title title">Наши товары</h2>
+            <p class="product__text section__text">
+              Мы&nbsp;используем только лучшие качественные материалы: соевый
+              воск, военные красители, высококачественные ароматические масла
+              и&nbsp;хлопковые фитильцы. Оттенки свечей очень гармонично
+              сочетаются с&nbsp;ароматом, создавая незабываемую атмосферу
+              в&nbsp;вашем доме.
+            </p>
+          </div>
+          <div class="products__content section__content-descr section--decor">
+            <div class="products__item">
+              <img src="img/product-1.jpg" alt="" class="products__item-img" />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">
+                "&laquo;Сердечко любви&raquo;"
+              </h4>
+              <p class="products__item-text">
+                Запах: нежный аромат розы и&nbsp;ванили. Для чего: для атмосферы
+                романтического настроения
+              </p>
+              <button class="btn">Купить</button>
+            </div>
+            <div class="products__item">
+              <img src="img/product-2.jpg" alt="" class="products__item-img" />
+              <p class="products__item-price">20$</p>
+              <h4 class="products__item-title">"&laquo;Вихрь любви&raquo;"</h4>
+              <p class="products__item-text">
+                Запах: прекрасный аромат лаванды. Для чего: для создания уютной
+                атмосферы уюта
+              </p>
+              <button class="btn">Купить</button>
+            </div>
+            <div class="products__item">
+              <img src="img/product-3.jpg" alt="" class="products__item-img" />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">"&laquo;Радуга&raquo;"</h4>
+              <p class="products__item-text">
+                Запах: свежий аромат лайма. Для чего: для энергии
+                и&nbsp;свежести в&nbsp;помещении.
+              </p>
+              <button class="btn">Купить</button>
+            </div>
+            <div class="products__item">
+              <img src="img/product-4.jpg" alt="" class="products__item-img" />
+              <p class="products__item-price">10$</p>
+              <h4 class="products__item-title">
+                "&laquo;Женское очарование&raquo;"
+              </h4>
+              <p class="products__item-text">
+                Запах: нежный аромат лаванды и&nbsp;фрезий. Для чего: для уюта
+                и&nbsp;комфорта.
+              </p>
+              <button class="btn">Купить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps section">
+        <div class="container section__inner">
+          <div class="steps__descr section__descr">
+            <h2 class="steps__title title">Этапы создания свечей</h2>
+            <p class="steps__text section__text">
+              Создание свечи из&nbsp;соевого воска может состоять
+              из&nbsp;следующих этапов:
+            </p>
+          </div>
+
+          <ol class="steps__content section__content-descr section--decor">
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Подготовка материалов: мелкие фрагменты соевого воска, фитиль
+                для свечи, ароматизаторы, красители и&nbsp;другие дополнительные
+                материалы.
+              </p>
+              <img src="img/s1.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Подготовка формы: выбор формы для свечи и&nbsp;подготовка
+                ее&nbsp;к&nbsp;наполнению воском.
+              </p>
+              <img src="img/s2.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="img/s3.jpg" alt="" class="steps__item-img" />
+              <p class="steps__item-text">
+                Приготовление воска: расплавление соевого воска
+                в&nbsp;правильном устройстве до&nbsp;нужной температуры.
+                Добавление ароматизаторов и&nbsp;красителей по&nbsp;мере
+                необходимости.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="img/s4.jpg" alt="" class="steps__item-img" />
+              <p class="steps__item-text">
+                Подготовка фитиля: вставьте фитиль в&nbsp;форму
+                и&nbsp;зафиксируйте его так, чтобы он&nbsp;был равномерно
+                напряжен.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Подготовка материалов: мелкие фрагменты соевого воска, фитиль
+                для свечи, ароматизаторы, красители и&nbsp;другие дополнительные
+                материалы.
+              </p>
+              <img src="img/s5.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Наполнение формы: воск налить до&nbsp;формы, пока она
+                не&nbsp;заполнится полностью. Ждать, пока он&nbsp;затвердеет.
+              </p>
+              <img src="img/s6.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="img/s7.jpg" alt="" class="steps__item-img" />
+              <p class="steps__item-text">
+                Приготовление воска: расплавление соевого воска
+                в&nbsp;правильном устройстве до&nbsp;нужной температуры.
+                Добавление ароматизаторов и&nbsp;красителей по&nbsp;мере
+                необходимости.
+              </p>
+            </li>
+            <li class="steps__item steps__item--even">
+              <img src="img/s8.jpg" alt="" class="steps__item-img" />
+              <p class="steps__item-text">
+                Подготовка фитиля: вставьте фитиль в&nbsp;форму
+                и&nbsp;зафиксируйте его так, чтобы он&nbsp;был равномерно
+                напряжен.
+              </p>
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Подготовка материалов: мелкие фрагменты соевого воска, фитиль
+                для свечи, ароматизаторы, красители и&nbsp;другие дополнительные
+                материалы.
+              </p>
+              <img src="img/s9.jpg" alt="" class="steps__item-img" />
+            </li>
+            <li class="steps__item steps__item--odd">
+              <p class="steps__item-text">
+                Наполнение формы: воск налить до&nbsp;формы, пока она
+                не&nbsp;заполнится полностью. Ждать, пока он&nbsp;затвердеет.
+              </p>
+              <img src="img/s10.jpg" alt="" class="steps__item-img" />
+            </li>
+          </ol>
+        </div>
+      </section>
+      <section class="courses section">
+        <div class="container section__inner">
+          <div class="courses__descr section__descr">
+            <h2 class="product__title title">Наши курсы</h2>
+            <p class="courses__text section__text">
+              Наши курсы позволяют сделать первый шаг в&nbsp;новой карьере или
+              углубить знания в&nbsp;своей области, развиваться как
+              профессионал, а&nbsp;также улучшить качество своей жизни.
+            </p>
+          </div>
+          <div class="products__content courses__content section__content-descr section--decor">
+            <div class="products__item courses__item">
+              <div class="courses__item-img">
+                <img src="img/course-1.jpg" alt="" class="products__item-img" />
+                <p class="courses__title">Основы изготовления свечей</p>
+                <p class="courses__time">Обучение<span>- 20 ч</span></p>
+                <p class="courses__prise">Цена -40$</p>
+              </div>
+              <h4 class="products__item-title">Основы изготовления свечей</h4>
+              <p class="products__item-text">
+                Будем обучать <br>&nbsp;основам изготовления &nbsp;свечей из&nbsp;различных&nbsp;
+                материалов.
+              </p>
+              <button class="btn">Купить курс</button>
+            </div>
+            <div class="products__item courses__item">
+              <div class="courses__item-img">
+                <img src="img/course-2.jpg" alt="" class="products__item-img" />
+                <p class="courses__title">Искусство ароматерапии</p>
+                <p class="courses__time">Обучение <span>- 20 ч</span></p>
+                <p class="courses__prise">Цена -40$</p>
+              </div>
+              <h4 class="products__item-title">Искусство ароматерапии</h4>
+              <p class="products__item-text">
+                Будем изучать искусство ароматерапии  и изготовления свечей
+                с&nbsp;различными ароматами.
+              </p>
+              <button class="btn">Купить курс</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <a href="#" class="logo">
+          <img class="logo__img" src="img/logo2.png" alt="" />
+        </a>
+        <nav class="menu footer__menu">
+          <ul class="menu__list footer__menu-list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Про нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Каталог</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Команда</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Обзор</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Курсы</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__contacts">
+          <a href="tel:+79180000000" class="footer__phone">+7 999 000 00 00</a>
+          <a href="mailto:bbbbbaaaaa@mail.ru" class="email">bbbbb@mail.ru</a>
+          <ul class="footer__social">
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img src="img/facebook.svg" alt="" class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img src="img/instagram.svg" alt="" class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img src="img/linkedin.svg" alt="" class="footer__social-img"
+              /></a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="footer__social-link"
+                ><img src="img/youtube.svg" alt="" class="footer__social-img"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
