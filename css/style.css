@@ -385,7 +385,7 @@ button {
   bottom: 10px;
 }
 .feedback__slider {
-  width: 560px;
+  width: 700px;
   overflow: hidden;
 }
 .feedback__content .swiper-pagination{
@@ -402,6 +402,22 @@ bottom: 50px;
 .swiper-pagination-bullet-active {
   background-color: var(--color-span);
 }
+
+.sertificates__descr{
+  margin-right: 20px;
+}
+.sertificates__slider{
+  width: 1130px;
+  overflow: hidden;
+}
+.sertificates__content{
+  padding-bottom: 114px;
+}
+.sertificates__content .swiper-pagination{
+  bottom: 50px;
+  text-align: left;
+  }
+
 .footer {
   padding-top: 4%;
   padding-bottom: 3%;

@@ -6,9 +6,27 @@ menuBtn.addEventListener("click", () => {
 });
 
 const swiperOne = new Swiper(".feedback__slider", {
-  loop: true,
+  loop: false,
 
   pagination: {
     el: ".swiper-pagination",
+  },
+});
+
+const swiperTwo = new Swiper(".sertificates__slider", {
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 20,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 2, 
+    },
+    360: {
+      slidesPerView: 1,
+    }
   },
 });
