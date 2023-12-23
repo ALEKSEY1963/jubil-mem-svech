@@ -388,36 +388,97 @@ button {
   width: 700px;
   overflow: hidden;
 }
-.feedback__content .swiper-pagination{
-bottom: 50px;
+.feedback__content .swiper-pagination {
+  bottom: 50px;
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 53px;
   height: 8px;
   background-color: var(--color-course-img);
   border-radius: 0;
   opacity: 1;
-
 }
 .swiper-pagination-bullet-active {
   background-color: var(--color-span);
 }
 
-.sertificates__descr{
+.certificates__descr {
   margin-right: 20px;
 }
-.sertificates__slider{
-  width: 1130px;
-  overflow: hidden;
+.certificates__content img {
+  width: 340px;
 }
-.sertificates__content{
+.certificates__slider {
+  width: 760px;
+  /* overflow: hidden; */
+}
+
+.certificates__content {
   padding-bottom: 114px;
 }
-.sertificates__content .swiper-pagination{
+.certificates__content .swiper-pagination {
   bottom: 50px;
   text-align: left;
-  }
-
+}
+.promo {
+  background-image: url(../img/promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 140px 0;
+}
+.promo__container {
+  display: flex;
+  align-items: center;
+}
+.promo__text {
+  font-family: var(--second-family);
+  font-size: 40px;
+  padding-left: 3%;
+  color: var(--color-about-text);
+  max-width: 800px;
+  margin-right: 150px;
+}
+.promo__link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--color-btn);
+  color: var(--color-btn-text);
+}
+.contacts {
+  padding: 150px 0 50px;
+}
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  padding: 75px 42px;
+  background-color: var(--color-about-text);
+  width: 664px;
+}
+.form__title {
+  margin-bottom: 60px;
+  font-family: var(--second-family);
+  font-size: 40px;
+}
+.form__input {
+  background-color: var(--color-about-text);
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+  color: #000;
+}
+.form__input::placeholder {
+  color: #b3b3b3;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
 .footer {
   padding-top: 4%;
   padding-bottom: 3%;
