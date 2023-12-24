@@ -441,7 +441,7 @@ button {
 }
 .promo__link {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 20px 40px;
   background-color: var(--color-btn);
   color: var(--color-btn-text);
 }
@@ -450,6 +450,7 @@ button {
 }
 .contacts__container {
   display: flex;
+  padding: 0 8%;
   justify-content: space-between;
   align-items: center;
 }
@@ -470,6 +471,7 @@ button {
   width: 100%;
   display: block;
   margin-bottom: 15px;
+  height: 30px;
   color: #000;
 }
 .form__input::placeholder {
@@ -478,6 +480,10 @@ button {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
+}
+.form__btn {
+  padding: 20px 40px;
+  margin-top: 36px;
 }
 .footer {
   padding-top: 4%;
