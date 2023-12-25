@@ -420,6 +420,51 @@ button {
   bottom: 50px;
   text-align: left;
 }
+
+.accordion {
+}
+.accordion__item {
+  background-color: var(--color-about-text);
+  margin-bottom: 10px;
+}
+
+.accordion__title {
+  padding: 16px 50px 16px 13px;
+  font-family: var(--second-family);
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  position: relative;
+}
+.accordion__title::after {
+  content: "";
+  background-image: url(../img/arrow.svg);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 25px;
+  top: 17px;
+}
+.accordion__title.accordion__title--active::after {
+  transform: rotate(180deg);
+}
+.accordion__text {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.5s, max-height 0.8s;
+}
+.accordion__text.accordion__text--visible {
+  opacity: 1;
+}
+.accordion__text ol {
+  padding: 20px 40px;
+}
+.accordion__text li {
+  list-style-type: upper-roman;
+}
+
 .promo {
   background-image: url(../img/promo.jpg);
   background-repeat: no-repeat;
