@@ -66,6 +66,7 @@
   }
 
   .team__item-box {
+    width: 125px;
     left: 125px;
     bottom: 10px;
   }
@@ -236,7 +237,7 @@
     width: 160px;
   }
   .team__item-box {
-    padding: 10px 8px;
+    padding: 4px 8px;
     width: 109px;
     left: 90px;
     bottom: 8px;
@@ -584,8 +585,8 @@
     width: 204px;
   }
   .team__item-box {
-    padding: 12px 18px;
-    width: 169px;
+    padding: 9px 18px;
+    width: 149px;
     left: 140px;
     bottom: 8px;
   }
