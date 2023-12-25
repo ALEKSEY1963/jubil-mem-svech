@@ -10,6 +10,8 @@ const swiperOne = new Swiper(".feedback__slider", {
 
   pagination: {
     el: ".swiper-pagination",
+    type: 'bullets',
+    clickable:true,
   },
 });
 
@@ -19,6 +21,8 @@ const swiperTwo = new Swiper(".certificates__slider", {
   spaceBetween: 20,
   pagination: {
     el: ".swiper-pagination",
+    type: 'bullets',
+    clickable:true,
   },
   breakpoints: {
     480: {
