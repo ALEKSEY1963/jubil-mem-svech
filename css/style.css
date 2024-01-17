@@ -45,6 +45,9 @@ button {
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 15px;
+  &:hover {
+    color: var(--color-btn);
+  }
 }
 .container {
   max-width: 1440px;
@@ -420,7 +423,6 @@ button {
   bottom: 50px;
   text-align: left;
 }
-
 
 .accordion__item {
   background-color: var(--color-about-text);
